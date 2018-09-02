@@ -1,0 +1,11 @@
+<!-- pages/classic/classic.wxml -->
+<view class="container">
+  <view class="header">
+    <b-episode class="episode" index="{{classicData.index}}" />
+    <b-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{likeCount}}" />
+  </view>
+  <b-movie wx:if="{{classicData.type===100}}" img="{{classicData.image}}" content="{{classicData.content}}" />
+  <b-music wx:if="{{classicData.type===200}}" img="{{classicData.image}}" content="{{classicData.content}}" src="{{classicData.url}}"/>
+  <b-essay wx:if="{{classicData.type===300}}" img="{{classicData.image}}" content="{{classicData.content}}" />
+  <b-navi bind:left="onNext" bind:right="onPrevious" class="navi" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}" />
+</view>
