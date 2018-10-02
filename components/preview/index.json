@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "b-tag": "/components/tag/index",
+    "b-like": "/components/like/index"
+  }
+}

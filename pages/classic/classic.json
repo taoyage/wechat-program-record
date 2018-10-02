@@ -5,6 +5,7 @@
     "b-music": "/components/classic/music/index",
     "b-essay": "/components/classic/essay/index",
     "b-episode": "/components/episode/index",
-    "b-navi": "/components/navi/index"
+    "b-navi": "/components/navi/index",
+    "b-button": "/components/image-button/index"
   }
 }
